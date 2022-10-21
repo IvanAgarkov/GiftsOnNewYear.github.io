@@ -40,12 +40,13 @@ p {
 }
 .gift:hover {
     filter: saturate(2);
-    transition: 0.5s;
-    padding: 5px;
+    transition: 0.7s;
+    border-radius: 15px 40px;
     
 }
 .gift:not(hover) {
-    transition: 0.5s;
+    transition: 0.7s;
+    border-radius: 10px;
     padding: auto;
 }
 .gift a {
@@ -71,12 +72,12 @@ p {
 }
 .gift5:hover {
     filter: saturate(2);
-    transition: 0.5s;
-    padding: 5px;
+    transition: 0.7s;
+    border-radius: 15px 40px;
 }
 .gift5:not(hover) {
-    transition: 0.5s;
-    padding: auto;
+    transition: 0.7s;
+    border-radius: 10px;
 }
 .gift5 a {
     text-decoration: none;
@@ -88,7 +89,6 @@ p {
 .bottom a{
     text-decoration: none;
     color: white;
-    cursor: pointer;
 }
 
 
@@ -111,42 +111,13 @@ p {
 }
 .gift1:hover {
     filter: saturate(2);
-    transition: 0.5s;
-    padding: 5px;
+    transition: 0.7s;
+    border-radius: 15px 40px;
 }
 .gift1:not(hover) {
-    transition: 0.5s;
-    padding: auto;
+    transition: 0.7s;
+    border-radius: 10px;
 }
 .gift1 a {
-    text-decoration: none;
-}
-.gift2 {
-    background: linear-gradient(to top left, orange, rgb(255, 156, 174));
-    border: 3px solid red;
-    width: auto;
-    text-align: center;
-    padding-top: 10px;
-    padding: 5px 5px;
-    margin: 20px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
-}
-.gift2 img {
-    
-    border-radius: 10px;
-    height: 170px;
-}
-.gift2:hover {
-    filter: saturate(2);
-    transition: 0.5s;
-    padding: 5px;
-}
-.gift2:not(hover) {
-    transition: 0.5s;
-    padding: auto;
-}
-.gift2 a {
     text-decoration: none;
 }
