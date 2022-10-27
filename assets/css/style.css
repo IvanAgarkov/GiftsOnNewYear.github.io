@@ -3,6 +3,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.content {
+    text-align: center;
+}
 
 h1 {
     color: white;
@@ -121,3 +124,13 @@ p {
 .gift1 a {
     text-decoration: none;
 }
+
+.graps_between_text {
+    line-height: 5px;
+    color: white;
+    text-align: center;
+}
+.heading {
+    margin-bottom: 5px;
+}
+
